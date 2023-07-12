@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 10px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.shipping-info {
+  font-size: 12px;
+  color: #555555;
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.shipping-info .underline {
+  text-decoration: underline; 
+}
+
+
+.company-container {
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.company {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.search-icon-div,
+.person-icon-div,
+.suitcase-icon-div {
+  padding: 0.20rem;
+  margin-right: 15px;
+}
+
+.search-icon-div {
+  background-color: var(--theme);
+  border-radius: 50%;
+  color: var(--white);
+  margin-right: 25px;
+}
+
+.person-icon-div,
+.suitcase-icon-div {
+  display: flex;
+  align-items: center;
+}
+
+.person-icon-div {
+  margin-right: 30px; 
+}
+
+.labels-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.label {
+  margin: 0 20px; 
+ 
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .navbar {
+   padding: 5px;
+  }
+
+  .company {
+   font-size: 30px;
+  }
+}
+
